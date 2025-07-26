@@ -1,0 +1,618 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+
+/* entête de la page d'accueil*/
+
+header {
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 32%;
+    background: linear-gradient(90deg, #FF6F00, #3B0A57);
+    height: 40em;
+    color: white;
+}
+
+.ogha {
+    display: inline;
+    padding: 1em;
+    position: relative;
+    left: 1em;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: inline-block;
+    position: relative;
+    left: 15em;
+    flex-wrap: wrap;
+}
+
+.hero {
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    padding: 1em;
+    margin: 0.4em;
+    flex-wrap: wrap;
+    border: solid white 0.1em;
+}
+
+li:hover {
+    a {
+        color: black;
+    }
+    background-color: white;
+    padding: 1em;
+    transition: 3s;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.clique {
+    display: inline-block;
+    position: relative;
+    left: 22em;
+    padding: 1em;
+    background-color: white;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.clique:hover{
+    background-color: #3B0A57;
+    border: solid white 0.2em;
+    transition: 3s;
+    a {
+        color: white;
+    }
+}
+
+.titremobile {
+    padding: 3em;
+    position: relative;
+    top: 4em;
+    display: inline-block;
+    width: 48em;
+    flex-wrap: wrap;
+}
+
+.imgacceuil {
+    border-radius: 1em;
+    height: 30em;
+    width: 35em;
+    margin: 0em 1em 1em 0em;
+    background: url(images/acceuil.png);
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: 73%;
+}
+main {
+    background-color: black;
+}
+ main h2{
+    font-size: 2em;
+    padding: 1em;
+    margin: 2em;
+    color: white;
+}
+
+
+.special {
+    position: relative;
+    top: 2em;
+    padding: 1em;
+    display: inline-block;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.titremobile h2:hover
+{
+    border: solid white 0.2em;
+    background-color: #FF6F00;
+    transition: 3s;
+     a{
+        color: white;
+    }
+
+}
+
+/* Section Generalite*/
+
+.generalite {
+    height: 32em;
+    padding: 1em;
+    margin: 1em 0em 1em 0em;
+    position: relative;
+    top: -2em;
+}
+
+.generalite article {
+    width: 97%;
+    text-align: justify;
+    display: inline-block;
+    display: flex;
+    background: url(images/gene.jpg);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 50%;
+    background-color: white;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+.generalite article p {
+    width: 41em;
+    text-align: justify;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+
+/*Situation du mobile*/
+
+.situation {
+    height: 27em;
+    padding: 1em;
+    margin: 1em 0em 1em 0em;
+    color: black;
+    position: relative;
+    top: -3em;
+}
+.situation  p {
+    width: 79em;
+    text-align: justify;
+    background-color: white;
+    padding: 1em;
+}
+
+
+/*ecosystème*/
+
+.eco {
+    height: 36em;
+    padding: 1em;
+    margin: 1em 0em 1em 0em;
+    position: relative;
+    top: -4em;
+}
+
+.eco  p {
+    width: 79em;
+    text-align: justify;
+      background-color: white;
+      padding: 1em;
+}
+
+
+/*styl pour les magasin d'application mobiles*/
+
+.magasin {
+    height: 15em;
+    padding: 1em;
+    margin: 1em 0em 1em 0em;
+    position: relative;
+    top: -5em;
+}
+
+.magasin p {
+    width: 79em;
+    text-align: justify;
+      background-color: white;
+      padding: 1em;
+}
+
+.imgmagasin {
+    display: inline-block;
+    height: 35em;
+    width: 35em;
+    position: relative;
+    left: 0em;
+    top: 3.2em;
+    flex-wrap: wrap;
+}
+
+
+/*analyse*/
+
+.analyse {
+    height: 50em;
+    padding: 1em;
+    margin: 1em 0em 1em 0em;
+    position: relative;
+    top: -4em;
+}
+
+.analyse article {
+    width: 98%;
+    text-align: justify;
+    display: inline-block;
+    display: flex;
+    background: url(images/analyse.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 40%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.analyse article p {
+    width: 41em;
+    text-align: justify;
+    display: inline-block;
+    padding: 1em;
+}
+
+.imganalyse {
+    display: inline-block;
+    height: 35em;
+    width: 35em;
+    position: relative;
+    left: 5em;
+    top: 6em;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 29em 29em;
+    padding: 2em;
+    justify-content: center;
+    height: 15em;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    border: white solid 0.1em;
+    border-radius: 2em;
+    margin: 1em;
+}
+
+.f00t {
+    margin: 1em 0em 0em 6em;
+    border: white solid 0.1em;
+    padding: 1em;
+    border-radius: 2em;
+    text-align: center;
+    position: relative;
+    top: 4em;
+    height: 3em;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.f00t:hover{
+    background-color: chartreuse;
+    a{
+        color: black;
+    }
+}
+/* les medias queries  */
+
+@media screen and (max-width: 1024px) {
+body {
+    width: 100%}
+    header{
+        width: 100%;
+        margin: 0px;
+        height: 70em;
+    }
+
+    .nav h2{
+        position: relative; 
+        top: 1em;
+    }
+    nav{
+        position: relative;
+        top: 5em;
+        display: flex;
+        flex-wrap: wrap;
+        left: 0em;
+    }
+    .nav h3{
+        display: none;
+    }
+    .titremobile{
+        position: relative;
+        top:30em;
+    }
+    .imgacceuil img {
+        position: relative;
+        top: 10em;
+         height: 35em;
+         width: 30em;
+         border: none;
+         left: -50em;
+        
+    }
+    .imgacceuil  {
+        display: block;
+        position: relative;
+        top: 2em;
+        left: -22em;
+        height: 30em;
+        width: 80em;
+        background-position: 0%;
+        background-size: 70%;
+    
+    }
+    .titremobile{
+        text-align: justify;
+        height: 22em;
+        position: relative;
+        left: 0.3em;
+        margin: 0.2em;
+        width: 95%;
+        
+    }
+    .titremobile h1{
+        font-size: x-large;
+        width: 12em;
+        text-align: justify;
+
+    }
+    .titremobile h3{
+        font-weight: 10px;
+        font-size: medium;
+        text-decoration: none;
+        text-align: justify;
+       
+    }
+    .titremobile h2{
+        position: relative;
+        top: 0.1em;
+        left: 1.3em;
+        padding: 0.5em;
+        margin: 0.1em;
+        
+        a{
+            font-size: medium;
+        }
+
+    }
+    .generalite{
+        height: 65em;
+
+    }
+    .generalite article{
+        background: none;
+        background-image: none;
+        padding: 1em;
+        background-color: white;
+        width: 90%;
+        
+    }
+    .situation{
+        height: 40em;
+    }
+    .situation p{
+        padding: 1em;
+        background-color: white;
+        width: 90%;
+        
+    }
+
+    .ecoh{
+        position: relative;
+        top: 25em;
+        margin: 2em;
+        height: 10em;
+    }
+    .eco{
+        position: relative;
+        top: 30em;
+        height: 80em;
+        margin: 0.5em;
+       
+    }
+    .eco p{
+        padding: 1em;
+        background-color: white;
+        width: 90%;
+        
+    }
+    .magasinh{
+                position: relative;
+        left: -1em;
+        top: 45em;
+        margin: 2em;
+        height: 10em;
+    }
+    .magasin{
+        position: relative;
+        top: 75em;
+        height: 80em;
+        margin: 0.5em;
+    }
+    .magasin p{
+        padding: 1em;
+        background-color: white;
+        width: 90%;
+    }
+    .analyseh{
+
+        position: relative;
+        left: -1em;
+        top: 37em;
+        margin: 2em;
+        height: 10em;
+    }
+    .analyse{
+        position: relative;
+        top: 62em;
+        height: 30em;
+        margin: 0.5em;
+    
+    }
+    .analyse p{
+        padding: 1em;
+        background-color: white;
+        width: 90%;
+        height: 50em;
+    }
+   footer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        background-color: black;
+        color: white;
+        height: 20em;
+        position: relative;
+        top: 120em;
+    
+    }
+    .f00t{
+        border-color: white;
+        position: relative;
+        left: -3em;
+        width: 50%;
+        top: 0.5em;
+    }
+
+
+
+
+}
+/* === Animations et transitions à ajouter à la fin === */
+
+/* Apparition du body */
+body {
+    animation: fadeInBody 1.2s ease;
+}
+@keyframes fadeInBody {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Animation sur le header */
+header {
+    animation: gradientMove 2.5s ease-in-out;
+    box-shadow: 0 8px 32px rgba(59,10,87,0.18);
+}
+@keyframes gradientMove {
+    0% { background-position: 0%;}
+    100% { background-position: 90%;}
+}
+
+/* Animation sur les titres */
+.titremobile h1, .titremobile h2, main h2 {
+    animation: slideDownTitle 1.2s cubic-bezier(.77,0,.175,1);
+}
+@keyframes slideDownTitle {
+    from { transform: translateY(-60px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Effet underline animé sur les titres */
+.titremobile h2, main h2, .eco h2, .magasin h2, .analyse h2 {
+    position: relative;
+    overflow: hidden;
+}
+.titremobile h2::after, main h2::after, .eco h2::after, .magasin h2::after, .analyse h2::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg,#FF6F00,#3B0A57);
+    transition: width 0.6s;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+.titremobile h2:hover::after, main h2:hover::after, .eco h2:hover::after, .magasin h2:hover::after, .analyse h2:hover::after {
+    width: 80%;
+}
+
+/* Animation sur le menu */
+nav {
+    animation: fadeInMenu 1.2s 0.3s backwards;
+}
+@keyframes fadeInMenu {
+    from { opacity: 0; transform: translateY(-30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+/* Animation sur les boutons et liens */
+li, .clique, .special, .f00t {
+    transition: box-shadow 0.3s, transform 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+li:hover, .clique:hover, .special:hover, .f00t:hover {
+    box-shadow: 0 8px 24px rgba(255,111,0,0.15);
+    transform: translateY(-4px) scale(1.04);
+}
+
+/* Animation sur les images */
+.imgacceuil, .imgmagasin, .imganalyse {
+    transition: transform 0.7s cubic-bezier(.77,0,.175,1), box-shadow 0.7s;
+}
+.imgacceuil:hover, .imgmagasin:hover, .imganalyse:hover {
+    transform: scale(1.03) rotate(-2deg);
+}
+
+/* Animation sur les sections et articles */
+section, article {
+    animation: fadeInSection 1.2s ease;
+}
+@keyframes fadeInSection {
+    from { opacity: 0; transform: translateY(40px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+/* Animation sur le footer */
+footer {
+    animation: fadeInFooter 1.5s 0.7s backwards;
+}
+@keyframes fadeInFooter {
+    from { opacity: 0; transform: translateY(60px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+/* Animation sur les liens */
+li a, .f00t a, .clique a {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+li:hover a, .f00t:hover a, .clique:hover a {
+    text-shadow: 0 2px 8px #FF6F00;
+}
+
+
+
+/* Responsive : animations dans les media queries */
+@media screen and (max-width: 1024px) {
+    body {
+        animation: fadeInBody 1.2s ease;
+    }
+    header {
+        animation: gradientMove 2.5s ease-in-out;
+    }
+    nav {
+        animation: fadeInMenu 1.2s 0.3s backwards;
+    }
+    .titremobile h1, .titremobile h2 {
+        animation: slideDownTitle 1.2s cubic-bezier(.77,0,.175,1);
+    }
+    .generalite, .eco, .magasin, .analyse, .situation {
+        animation: fadeInSection 1.2s ease;
+    }
+    footer {
+        animation: fadeInFooter 1.5s 0.7s backwards;
+    }
+    .imgacceuil, .imgmagasin, .imganalyse {
+        transition: transform 0.7s cubic-bezier(.77,0,.175,1), box-shadow 0.7s;
+    }
+}
+/* === Fin des animations === */

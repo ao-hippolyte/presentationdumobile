@@ -1,0 +1,688 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+header {
+    height: 40em;
+    border: solid black 0.1em;
+    padding: 1em;
+    color: white;
+    background: linear-gradient(180deg, #FF6F00, #3B0A57);
+}
+
+.hero {
+    background-image: url(/images/appleimac2015front.png);
+    background-position: 50%;
+    background-size: 100%;
+    padding: 0.5em;
+    background: linear-gradient(90deg, #FF6F00, #3B0A57);
+}
+
+.her {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+.imgtete  {
+    margin: 0.5em;
+
+    background-color: none;
+    width: 30em;
+    height: 28em;
+    display: inline-block;}
+
+.imgtete img{
+     width: 35em;
+    height: 30em;
+
+}
+
+.text {
+    display: inline-block;
+    width: 45em;
+    height: 27em;
+    vertical-align: top;
+    padding: 5em 0.5em 0.5em 1.2em;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.text h3 {
+    position: relative;
+    top: 6em;
+    left: 27em;
+    display: inline-block;
+    padding: 1em;
+    background-color: white;
+    color: black;
+}
+.text h3:hover{
+     transition: 3s;
+    border: solid white 0.1em;
+    background-color: #3B0A57;
+    a {
+        color: white;
+    }
+
+}
+.text h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1em;
+    margin: 0.8em;
+    background-color: white;
+    flex-wrap: wrap;
+}
+nav li:hover{
+    transition: 3s;
+    border: solid white 0.1em;
+    background-color: #3B0A57;
+    a {
+        color: white;
+    }
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*stylisation des section*/
+
+
+/*por ensemble des sections*/
+
+main {
+    background-color: black;
+}
+
+h4 {
+    font-size: 2em;
+    padding: 1em;
+    margin: 2em;
+    color: white;
+}
+
+h5 {
+    font-size: 1em;
+    
+}
+
+
+/*pour la programation native*/
+
+.prognative {
+    display: flex;
+    flex-direction: row;
+    height: 80em;
+    flex-wrap: wrap;
+    gap: 6em;
+    justify-content: center;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.epgn {
+    width: 30em;
+    height: 20em;
+    border: black solid 0.1em;
+    padding: 1em;
+    border-radius: 2em;
+    li {
+        color: black
+    }
+}
+
+.epgn h5 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+.epgn .dev {
+    color: #FF0000
+}
+
+
+/*stule de la section site web mobile*/
+
+.swmobile {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 18em 18em 18em 18em;
+    padding: 2em;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+}
+
+.swm {
+    border: black solid 0.1em;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.swm h5 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
+/*style pou la programmation multiplateforme*/
+
+.pmp {
+    padding: 1em;
+    margin: 0em 2em 0em 2em;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+}
+
+.pmp h5 {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+
+/*stylisation de la section programmation hybride*/
+
+.hybride {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 23em 23em 23em;
+    padding: 2em;
+    justify-content: center;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.pgh {
+    margin: 1em;
+    border: black solid 0.1em;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.pgh h5 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
+/*Style pour la section programmation native généré*/
+
+.appnative {
+    padding: 1em;
+    margin: 0em 2em 0em 2em;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+}
+
+.genapng h5 {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+
+/*style pour la section react native*/
+
+.react {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 23em 23em 23em;
+    padding: 2em;
+    justify-content: center;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.ereact {
+    margin: 1em;
+    border: black solid 0.1em;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.ereact h5 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
+/*styl pour la section ionic*/
+
+.ionic {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 23em 23em 23em;
+    padding: 2em;
+    justify-content: center;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.eionic {
+    margin: 1em;
+    border: black solid 0.1em;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.eionic h5 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
+/*styl pour la section de flutter*/
+
+.flutter {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 23em 23em 23em;
+    padding: 2em;
+    justify-content: center;
+    background-color: white;
+    margin: 2em;
+    flex-wrap: wrap;
+}
+
+.eflutter {
+    margin: 1em;
+    border: black solid 0.1em;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.eflutter h5 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
+/*style de la section footer*/
+
+footer {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 23em 23em 23em;
+    padding: 2em;
+    justify-content: center;
+    height: 20em;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    border: white solid 0.1em;
+    border-radius: 2em;
+    margin: 1em;
+}
+
+.f00t {
+    margin: 1em;
+    border: white solid 0.1em;
+    padding: 1em;
+    border-radius: 2em;
+    text-align: justify;
+    position: relative;
+    top: 4em;
+    height: 8em;
+}
+@media screen and (max-width: 1024px) {
+    head{
+        background-color: black;
+    }
+    body{
+        background-color: black;
+    }
+    header{
+        height: 70em;
+        width: 94%;
+        margin: 0.1em;
+    }
+    .imgtete{
+        display: none;
+    }
+    .text{
+        width: 90%;
+        height: 30em;
+        text-align: center;
+        h3{
+            display: block;
+            position: relative;
+            left: 1.5em;
+            width: 10em;
+            text-align: center;
+            top: 1.2em;
+        }
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 0em;
+        left: 1.5em;
+        li{
+             width: 10em;
+             text-align: center;
+              background: none;
+                border:  solid white 0.1em;
+                a{
+                    color: white;
+                }
+
+        }
+
+    }
+    .prognativeh{
+        font-size: x-large;
+        text-align: center;
+    }
+    .prognative{
+        height: 170em;
+        margin: 1em;
+        width: 75%;
+
+    }
+    .epgn{
+        height: 27em;
+        background-color: white;
+    }
+    /* site web mobile */
+    .swmobileh{
+        position: relative;
+        top: 1em;
+        font-size: x-large;
+        text-align: center;
+    }
+    .swmobile{
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        height: 85em;
+        margin: 1em;
+        position: relative;
+        top: 2em;
+    }
+    /* programmation multiplatform */
+    .pmph{
+        font-size: x-large;
+        text-align: center;
+
+    }
+    .pmp{
+        position: relative;
+        top: -2em;
+        width: 75%;
+        margin: 1em;
+    
+    }
+    /* programmation hybide */
+    .hybrideh{
+         font-size: x-large;
+        text-align: center;
+        position: relative;
+        top: -2em;
+    }
+    .hybride{
+        position: relative;
+        top: -5em;
+         width: 75%;
+        margin: 1em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* applicatio native */
+    .appnativeh{
+         font-size: x-large;
+        text-align: center;
+        position: relative;
+        top: -4em;
+    }
+    .appnative{
+         width: 75%;
+        margin: 1em;
+        position: relative;
+        top: -6em;
+    }
+    /* react  */
+    .reacth{
+          font-size: x-large;
+        text-align: center;
+        position: relative;
+        top: -4em;
+    }
+    .react{
+        width: 75%;
+        margin: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -7em;
+    }
+    /* ionic */
+    .ionich{
+         font-size: x-large;
+        text-align: center;
+        position: relative;
+        top: -5em;
+    }
+    .ionic{
+         width: 75%;
+        margin: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -8em;
+    }
+    /* flutter */
+    .flutterh{
+        font-size: x-large;
+        text-align: center;
+        position: relative;
+        top: -6em;
+    }
+    .flutter{
+         width: 75%;
+        margin: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -10em;
+    }
+    /* Footer */
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 76%;
+        background-color: black;
+        color: white;
+        height: 50em;
+        position: relative;
+        top: -2em;
+    }
+    .f00t{
+        border-color: white;
+        height: 10em;
+        position:  relative;
+        top: -0.5em;
+    }
+
+
+}
+/* === Animations et transitions à ajouter à la fin === */
+
+/* Apparition du body */
+body {
+    animation: fadeInBody 1.2s ease;
+}
+@keyframes fadeInBody {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Animation sur le header */
+header {
+    animation: gradientMove 2.5s ease-in-out;
+    box-shadow: 0 8px 32px rgba(59,10,87,0.18);
+}
+@keyframes gradientMove {
+    0% { background-position: 0%;}
+    100% { background-position: 90%;}
+}
+
+/* Animation sur les titres principaux */
+.hero h2, .hero h3, main h4, section h5 , nav li {
+    animation: slideDownTitle 1.2s cubic-bezier(.77,0,.175,1);
+}
+@keyframes slideDownTitle {
+    from { transform: translateY(-60px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Effet underline animé sur les titres */
+main h4, section h5 {
+    position: relative;
+    overflow: hidden;
+}
+main h4::after, section h5::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg,#FF6F00,#3B0A57);
+    transition: width 0.6s;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+main h4:hover::after, section h5:hover::after {
+    width: 80%;
+}
+
+/* Animation sur le menu uniquement */
+nav li {
+    transition: box-shadow 0.3s, transform 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+nav li:hover {
+    box-shadow: 0 8px 24px rgba(255,111,0,0.15);
+    transform: translateY(-4px) scale(1.04);
+}
+nav li a {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+
+/* Animation sur les images */
+.imgtete img {
+    transition: transform 0.7s cubic-bezier(.77,0,.175,1), box-shadow 0.7s;
+}
+.imgtete img:hover {
+    transform: scale(1.03) rotate(-2deg);
+}
+
+/* Animation sur les sections et articles */
+section {
+    animation: fadeInSection 1.2s ease;
+}
+@keyframes fadeInSection {
+    from { opacity: 0; transform: translateY(40px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+/* Animation sur le footer */
+footer {
+    animation: fadeInFooter 1.5s 0.7s backwards;
+}
+@keyframes fadeInFooter {
+    from { opacity: 0; transform: translateY(60px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+/* Animation sur les backgrounds des sections au hover */
+section:hover {
+    box-shadow: 0 8px 32px rgba(59,10,87,0.18);
+    background-color: #f7f7f7;
+    transition:  box-shadow 0.5s;
+}
+
+/* Animation sur les paragraphes */
+section p, .f00t {
+    transition:  color 0.4s;
+}
+ .f00t:hover {
+    background-color: #FF6F00;
+    color: white;
+}
+
+/* Responsive : animations dans les media queries */
+@media screen and (max-width: 1024px) {
+    body {
+        animation: fadeInBody 1.2s ease;
+    }
+    header {
+        animation: gradientMove 2.5s ease-in-out;
+    }
+    nav li {
+        transition: box-shadow 0.3s, transform 0.3s;
+    }
+    nav li:hover {
+        box-shadow: 0 8px 24px rgba(255,111,0,0.15);
+        transform: translateY(-4px) scale(1.04);
+    }
+    nav li a {
+        transition: color 0.3s, text-shadow 0.3s;
+    }
+    nav li:hover a {
+        text-shadow: 0 2px 8px #FF6F00;
+    }
+    .hero h2, .hero h3, main h4, section h5 {
+        animation: slideDownTitle 1.2s cubic-bezier(.77,0,.175,1);
+    }
+    section {
+        animation: fadeInSection 1.2s ease;
+    }
+    footer {
+        animation: fadeInFooter 1.5s 0.7s backwards;
+    }
+    .imgtete img {
+        transition: transform 0.7s cubic-bezier(.77,0,.175,1), box-shadow 0.7s;
+    }
+}
+/* === Fin des animations === */
