@@ -305,6 +305,10 @@ footer {
 @media screen and (max-width: 1024px) {
 body {
     width: 100%}
+    main {
+        width: 98%;
+        margin: 0.1em;
+    }
     header{
         width: 100%;
         margin: 0px;
@@ -335,7 +339,7 @@ body {
          height: 35em;
          width: 30em;
          border: none;
-         left: -50em;
+         left: -40em;
         
     }
     .imgacceuil  {
@@ -344,7 +348,7 @@ body {
         top: 2em;
         left: -24em;
         height: 30em;
-        width: 80em;
+        width: 90%m;
         background-position: 0%;
         background-size: 70%;
     
@@ -392,12 +396,20 @@ body {
         background-image: none;
         padding: 1em;
         background-color: white;
-        width: 80%;
+        width: 85%;
         margin: 0.1em;
         
     }
+    .situationh{
+        position: relative;
+        top: 10em ;
+        font-size: x-large;
+    }
     .situation{
         height: 40em;
+        position: relative;
+        top: 12em;
+        margin: 0.1em;
     }
     .situation p{
         padding: 1em;
@@ -409,13 +421,14 @@ body {
 
     .ecoh{
         position: relative;
-        top: 30em;
+        top: 55em;
         margin: 2em;
         height: 10em;
+        font-size: x-large;
     }
     .eco{
         position: relative;
-        top: 35em;
+        top: 68em;
         height: 80em;
         margin: 0.5em;
        
@@ -429,13 +442,14 @@ body {
     .magasinh{
                 position: relative;
         left: -1em;
-        top: 50em;
+        top: 106em;
         margin: 2em;
         height: 10em;
+        font-size: x-large;
     }
     .magasin{
         position: relative;
-        top: 80em;
+        top: 150em;
         height: 80em;
         margin: 0.5em;
     }
@@ -449,14 +463,15 @@ body {
 
         position: relative;
         left: -1em;
-        top: 37em;
+        top: 110em;
         margin: 2em;
         height: 10em;
+        font-size: x-large;
     }
     .analyse{
         position: relative;
-        top: 67em;
-        height: 30em;
+        top: 157em;
+        height: 45em;
         margin: 0.5em;
     
     }
@@ -465,17 +480,17 @@ body {
         background-color: white;
           width: 85%;
         margin: 0.1em;
-        height: 50em;
+        height: 65em;
     }
    footer {
         display: flex;
         flex-wrap: wrap;
-        width: 75%;
+        width: 70%;
         background-color: black;
         color: white;
         height: 20em;
         position: relative;
-        top: 125em;
+        top: 220em;
     
     }
     .f00t{
